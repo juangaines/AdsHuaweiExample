@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.huawei.hms.maps"
+    android:versionCode="50003302"
+    android:versionName="5.0.3.302" >
+
+    <uses-sdk
+        android:minSdkVersion="19"
+        android:targetSdkVersion="28" />
+
+    <application>
+        <meta-data
+            android:name="com.huawei.hms.map.version"
+            android:value="4.0.2.300" />
+        <meta-data
+            android:name="com.huawei.hms.client.service.name:maps"
+            android:value="maps:5.0.3.302" />
+        <meta-data
+            android:name="com.huawei.hms.min_api_level:maps:huawei_module_maps"
+            android:value="4" />
+        <meta-data
+            android:name="com.huawei.hms.min_api_level:maps:huawei_module_huaweimaps"
+            android:value="4" />
+    </application>
+
+</manifest>
